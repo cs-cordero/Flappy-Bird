@@ -12,6 +12,8 @@ import sys, os, random, pygame
 from pygame.locals import *
 from scripts.spritesheets import *
 from scripts.constants import *
+from scripts.classes import *
+import scripts.sounds
 
 pygame.init()
 fps = pygame.time.Clock()
@@ -29,7 +31,7 @@ def generateBackground():
 
 def loadPlayerSprites():
   rects = []
-  for x in range(1,9): rects.append(pygame.Rect(17*(x-1),0,17,12))
+  for x in range(1,10): rects.append(pygame.Rect(17*(x-1),0,17,12))
   sheet = spritesheet(os.path.join('images','player_bird.png'))
   images = sheet.images_at(rects, COLORKEY)
   resized_images = []
@@ -38,20 +40,38 @@ def loadPlayerSprites():
 
 def main():
   background_img, background_size = generateBackground()
-  bird_imgs = loadPlayerSprites()
+  flappybird = bird(loadPlayerSprites(), frames=FPS/12)
+  player = flappybird.image_list[0]
 
   while True:
     canvas.fill(BLACK)
     canvas.blit(background_img,((WINDOWWIDTH/2)-(background_size[0]/2),0))
-    canvas.blit(bird_imgs[0],(10,10))
+    
+    try:
+      canvas.blit(flappybird.image_list[0],(10,10))   
+      canvas.blit(flappybird.image_list[1],(10,40))
+      canvas.blit(flappybird.image_list[2],(10,70))
+      canvas.blit(flappybird.image_list[3],(10,100))
+      canvas.blit(flappybird.image_list[4],(10,130))
+      canvas.blit(flappybird.image_list[5],(10,160))
+      canvas.blit(flappybird.image_list[6],(10,190))
+      canvas.blit(flappybird.image_list[7],(10,220))
+      canvas.blit(flappybird.image_list[8],(10,250))
+    except: pass
+
+    canvas.blit(player,(flappybird.posx,flappybird.posy))
 
     for event in pygame.event.get():
+      if event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
+        flappybird.rotate(flap=True)
+        flappybird.fall(flap=True)
       if event.type == QUIT:
         pygame.quit()
         sys.exit()
+    
     pygame.display.update()
     fps.tick(60)
-
+    player = flappybird.next()
 
 if __name__ == '__main__':
   main()
