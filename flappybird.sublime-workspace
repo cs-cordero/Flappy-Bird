@@ -1,0 +1,682 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"WID",
+				"WINDOWHEIGHT"
+			],
+			[
+				"background",
+				"background_size"
+			],
+			[
+				"WIN",
+				"WINDOWWIDTH"
+			],
+			[
+				"WIND",
+				"WINDOWHEIGHT"
+			],
+			[
+				"option_",
+				"option_strikeprice"
+			],
+			[
+				"get",
+				"getdates_tos_3_equity"
+			],
+			[
+				"getdates",
+				"getdates_aom_3_equity"
+			],
+			[
+				"entered",
+				"entered_time"
+			],
+			[
+				"time_",
+				"time_to_cancellation"
+			],
+			[
+				"time_t",
+				"time_to_execution"
+			],
+			[
+				"AC",
+				"ACTIVITY_TIME"
+			],
+			[
+				"min_",
+				"min_entered_time"
+			],
+			[
+				"qty",
+				"qty_entered"
+			],
+			[
+				"activ",
+				"ACTIVITY_QTY"
+			],
+			[
+				"qty_",
+				"qty_cancelled"
+			],
+			[
+				"sec",
+				"security_type"
+			],
+			[
+				"aom_exe",
+				"aom_executed_2"
+			],
+			[
+				"aom_entered",
+				"aom_entered_2"
+			],
+			[
+				"ACTIVIT",
+				"ACTIVITY_QTY"
+			],
+			[
+				"INSTRU",
+				"INSTRUMENT_TYPE"
+			],
+			[
+				"instru",
+				"INSTRUMENT_TYPE"
+			],
+			[
+				"impor",
+				"import_tos_orders_2"
+			],
+			[
+				"import_tos",
+				"import_tos_orders_2"
+			],
+			[
+				"ACTIVITY",
+				"ACTIVITY_TIME"
+			],
+			[
+				"import_aom",
+				"import_aom_orders_2"
+			],
+			[
+				"absnet",
+				"absnetloanpk"
+			],
+			[
+				"forstata_macro",
+				"forstata_macro_5"
+			],
+			[
+				"forstata",
+				"forstata_macro_4"
+			],
+			[
+				"first",
+				"first_default_date"
+			],
+			[
+				"forstata_",
+				"forstata_macro_1"
+			],
+			[
+				"abs",
+				"ABSNetLoanpk"
+			],
+			[
+				"forstata_une",
+				"forstata_unemp_2"
+			],
+			[
+				"TAPE",
+				"TAPE_CLTV"
+			],
+			[
+				"original",
+				"originalcltv"
+			],
+			[
+				"TAPE_",
+				"TAPE_CLTV"
+			],
+			[
+				"shea_flag",
+				"shea_flagging_1"
+			],
+			[
+				"Tape_",
+				"TAPE_ORIG_AM_TERM"
+			],
+			[
+				"originalamo",
+				"originalamortizationterm"
+			],
+			[
+				"tape",
+				"TAPE_LOAN_ID"
+			],
+			[
+				"TA",
+				"TAPE_LOAN_ID"
+			],
+			[
+				"tape_",
+				"TAPE_CREDIT_SCORE"
+			],
+			[
+				"import_tape",
+				"import_tape_csmc20072"
+			],
+			[
+				"loanorigind",
+				"loanoriginationdate"
+			],
+			[
+				"import_",
+				"import_reunderwritingsample2"
+			],
+			[
+				"import",
+				"import_reunderwritingsample2"
+			],
+			[
+				"import_re",
+				"import_reunderwritingsample"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "flappybird.py",
+			"settings":
+			{
+				"buffer_size": 3963,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "scripts/classes.py",
+			"settings":
+			{
+				"buffer_size": 2758,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "scripts/sounds.py",
+			"settings":
+			{
+				"buffer_size": 475,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "scripts/constants.py",
+			"settings":
+			{
+				"buffer_size": 840,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 213.0,
+		"last_filter": "pyt",
+		"selected_items":
+		[
+			[
+				"pyt",
+				"Set Syntax: Python"
+			],
+			[
+				"sssas",
+				"Set Syntax: SAS Program"
+			],
+			[
+				"upper",
+				"Convert Case: Upper Case"
+			],
+			[
+				"lower",
+				"Convert Case: Lower Case"
+			],
+			[
+				"sstxt",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"python",
+				"Set Syntax: Python"
+			],
+			[
+				"pci",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 549.0
+	},
+	"console":
+	{
+		"height": 176.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/U/Projects/Flappy Bird",
+		"/U/Projects/Flappy Bird/images",
+		"/U/Projects/Flappy Bird/scripts"
+	],
+	"file_history":
+	[
+		"/U/test.py",
+		"//CRDCFS1/Projects97/CSM-MBS FHLB SF Loss Causation/Analysis/SAS/Programs/BO/Build/_Deal Regression/0) Deal Flags.sas",
+		"//crdcfs1/projects88/SA-Velocity/Analysis/SAS/Code/3. Pull Combinations to Request Tick Data.sas",
+		"//crdcfs1/projects88/SA-Velocity/Data/Recd 2016.05.02/TOS Orders .sql",
+		"//crdcfs1/projects88/SA-Velocity/Analysis/SAS/Code/2. Run Analysis.sas",
+		"//crdcfs1/projects88/SA-Velocity/Analysis/SAS/Code/1. Import Data.sas",
+		"//crdcfs1/projects88/SA-Velocity/Analysis/SAS/Code/_Header.sas",
+		"//crdcfs1/projects97/CSM-MBS FDIC V Loss Causation/Analysis/SAS/Programs/CC/5. Loan-Level Logit Regression.sas",
+		"//crdcfs1/projects97/CSM-MBS FDIC V Loss Causation/Analysis/SAS/Programs/CC/6a. For Stata Defaults and Flags.sas",
+		"//crdcfs1/projects97/CSM-MBS FDIC V Loss Causation/Analysis/SAS/Programs/CC/6. For Stata.sas",
+		"//crdcfs1/projects97/CSM-MBS FDIC V Loss Causation/Analysis/SAS/Programs/CC/_Header.sas",
+		"//crdcfs1/projects97/CSM-MBS FDIC V Loss Causation/Analysis/SAS/Programs/CC/1. Loan Setup.sas",
+		"//crdcfs1/projects97/CSM-MBS FDIC V Loss Causation/Analysis/SAS/Programs/CC/4. Finalize Dataset for Regression.sas",
+		"//crdcfs1/projects97/CSM-MBS FDIC V Loss Causation/Analysis/SAS/Programs/CC/3. Macroeconomic Variables.sas",
+		"//crdcfs1/projects97/CSM-MBS FDIC V Loss Causation/Analysis/Stata/PW/(3) Regression/(2) Code/Logistic Regression.do",
+		"//crdcfs1/projects97/CSM-MBS FDIC V Loss Causation/Analysis/SAS/Programs/CC/2. Loan History.sas",
+		"/C/Users/CCordero/AppData/Local/Microsoft/Windows/Temporary Internet Files/Content.Outlook/U5TEHW27/Chad Gadya_Cordero.py",
+		"/U/Chad Gadya_Cordero.py",
+		"/C/Users/CCordero/Desktop/Chad Gadya_Cordero.py",
+		"/C/Users/CCordero/AppData/Roaming/Sublime Text 3/Packages/Default.sublime-theme",
+		"/C/Users/CCordero/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/CCordero/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 43.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"self.",
+			"pos",
+			"pipe",
+			"firstPipe",
+			"images[",
+			"PIPECOLOR ==",
+			"arttime",
+			"17",
+			"option_maturity_date",
+			"option_stirkeprice",
+			"option_maturity_date ",
+			"aom",
+			"order_receipt_time",
+			"aom",
+			"min(",
+			",",
+			"activity_time",
+			"drop ",
+			" ",
+			"run;",
+			";",
+			"equity",
+			"aom",
+			"compress(tranwrd(symbol,\".\",\"\"),\"a\")",
+			"substr(compress(tranwrd(symbol,\".\",\"\"),\"a\")",
+			"substr(",
+			"old_activity_time",
+			"order_receipt_time",
+			"equity",
+			"order_receipt_time",
+			", ",
+			"executed",
+			"min",
+			"min=",
+			"min",
+			"min=",
+			"aom",
+			".TYPE",
+			"max",
+			"min",
+			"executed",
+			"class ",
+			"ORDER_TYPE",
+			"=",
+			"ORDER_TYPE",
+			"aom_",
+			"max_",
+			"min_",
+			"qty_",
+			"qty_entered",
+			"b",
+			"class ",
+			"ORD_ID",
+			"class ",
+			"class ORD_ID",
+			"executed",
+			"entered",
+			";",
+			" ",
+			"old_order_time",
+			"old_order_receipt_time",
+			"= ",
+			"_old",
+			"order_receipt_time_old",
+			"Text_DT",
+			"Text_Dt",
+			"=",
+			" ",
+			"ROW_NUM ACTVY_ID ORD_ID ORDER_RECEIPT_TIME INSTRUCTIONS ORIGL_QTY SYMBOL SCRTY_DESCR ORDER_TYPE TRAILING STOP METHOD TRAIL_STOP_AMT LIMIT_PRICE STP_LIMIT_PRICE ORD_DURATION GOOD_TILL_DT DEST_SYS_CD ACCT_NBR CUST_SHORT_NM CAPACITY AON_FLAG DNR_I_FLAG NOT_HELD_FLAG ACTIVITY_TIME ACTIVITY ACTIVITY_QTY ACTIVITY_PRICE CNCL_QTY REF_ORD_ID ENTERING_DEVICE MARKET_CD ENTERING_BROKER_CD CXL_BY DISCRETIONARY_FLAG ENT_ACCT_ID OLD_ACCT_ID CUST_ID CONFM_1_TXT CONFM_2_TXT TRAILING_STOP CLIENT_DIRECTED CONDITIONAL_ORDER DISPLAY_SIZE RVW_CD TYPE TEXT",
+			"$100.",
+			"data ",
+			"&importdir",
+			"\\\\crdcfs1\\projects88\\SA-Velocity\\Data\\Recd 2016.05.02",
+			" ",
+			"ROW_NUM ACTVY_ID ORD_ID ORDER_RECEIPT_TIME INSTRUCTIONS ORIGL_QTY SYMBOL SCRTY_DESCR ORDER_TYPE TRAILING STOP METHOD TRAIL_STOP_AMT LIMIT_PRICE STP_LIMIT_PRICE ORD_DURATION GOOD_TILL_DT DEST_SYS_CD ACCT_NBR CUST_SHORT_NM CAPACITY AON_FLAG DNR_I_FLAG NOT_HELD_FLAG ACTIVITY_TIME ACTIVITY ACTIVITY_QTY ACTIVITY_PRICE CNCL_QTY REF_ORD_ID ENTERING_DEVICE MARKET_CD ENTERING_BROKER_CD CXL_BY DISCRETIONARY_FLAG ENT_ACCT_ID OLD_ACCT_ID CUST_ID CONFM_1_TXT CONFM_2_TXT TRAILING_STOP CLIENT_DIRECTED CONDITIONAL_ORDER DISPLAY_SIZE RVW_CD TYPE TEXT",
+			" ",
+			"flag_purpose_p",
+			" ",
+			"flag_purpose_p",
+			" ",
+			"logit ",
+			"flag_defective",
+			"201208",
+			"flag_shea",
+			" ",
+			"defect=",
+			"flag_",
+			" ",
+			"i.TrustCode",
+			"tc",
+			" ",
+			"Status avm_ltv_gt_80_alt FICO LTV DTI max_unemp min_hpi Rate Ln_Original_Balance non_owner_occupied full_doc refinance single_family flag_silentsecond",
+			" ",
+			"logit ",
+			"logit",
+			". ",
+			"> ",
+			" ",
+			"default",
+			"B",
+			"b",
+			"B",
+			"b",
+			"hpi",
+			"tape_",
+			"tape_w_history",
+			"unemp",
+			"hpi",
+			"cltv",
+			"ge 2000",
+			"year ge 2000",
+			"forstata_5",
+			"forstata_4",
+			"forstata_3",
+			"forstata_2",
+			"forstata_1",
+			"regdata",
+			"+",
+			"sheet=",
+			"flag_silentsecond",
+			"of",
+			"delta",
+			"alta",
+			"print",
+			"if w >= 2: ",
+			"[v",
+			"),",
+			" \","
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "flappybird.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3963,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3925,
+								3925
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1518.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "scripts/classes.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2758,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								800,
+								800
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1122.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "scripts/sounds.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 475,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								334,
+								345
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "scripts/constants.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 840,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								677,
+								677
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "flappybird.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 261.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
