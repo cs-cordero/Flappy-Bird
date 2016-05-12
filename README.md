@@ -3,6 +3,9 @@ Flappy Bird
 
 May 12, 2016
 ============
+Added Credits.
+v1.1
+
 Game is fully completed, barring some minor bugs.  Collision detection could use some tightening.
 v1.0
 

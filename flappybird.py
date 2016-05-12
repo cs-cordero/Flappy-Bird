@@ -79,7 +79,7 @@ def displayText(text, posx, posy, size=int(scaletoheight(72.0)), font='Flappy-Bi
   textRectObj.center = (posx, posy)
   return textSurfaceObj, textRectObj
 
-def drawAssets(bg_gameZone, bg_titleScreen, bg_img, bg_grounds, bg_gamePipes, flappyBird, gamePoints, finalScore, suppressScore=False):
+def drawAssets(bg_gameZone, bg_titleScreen, bg_img, bg_grounds, bg_gamePipes, flappyBird, gamePoints, finalScore, credits, suppressScore=False):
   canvas.fill(BLACK)
   canvas.blit(bg_img,bg_gameZone.topleft)
   if len(bg_gamePipes) > 0:
@@ -99,11 +99,28 @@ def drawAssets(bg_gameZone, bg_titleScreen, bg_img, bg_grounds, bg_gamePipes, fl
   
   canvas.blit(flappyBird.img,(flappyBird.posx,flappyBird.posy))
   canvas.blit(finalScore.img,finalScore.rect.topleft)
+  for credit in credits: canvas.blit(credit[0],credit[1])
 
   pygame.draw.rect(canvas, BLACK, ((0,0),bg_gameZone.bottomleft))
   pygame.draw.rect(canvas, BLACK, (bg_gameZone.topright,(WINDOWWIDTH,WINDOWHEIGHT)))
 
+def prepareCredits(gameZone):
+    credits = []
+    creditsWhite1 = displayText("Original by Nguyen Ha Dong", gameZone.centerx, scaletoheight(380.0), color=WHITE, size=30)
+    creditsBlack1 = displayText("Original by Nguyen Ha Dong", gameZone.centerx, scaletoheight(380.0), color=BLACK, size=30)
+    creditsBlack1[1].right += scaletowidth(2)
+    creditsBlack1[1].top += scaletoheight(2)
 
+    creditsWhite2 = displayText("Recreated by Christopher Sabater Cordero", gameZone.centerx, scaletoheight(410.0), color=WHITE, size=30)
+    creditsBlack2 = displayText("Recreated by Christopher Sabater Cordero", gameZone.centerx, scaletoheight(410.0), color=BLACK, size=30)
+    creditsBlack2[1].right += scaletowidth(2)
+    creditsBlack2[1].top += scaletoheight(2)
+    credits.append(creditsBlack1)
+    credits.append(creditsBlack2)
+    credits.append(creditsWhite1)
+    credits.append(creditsWhite2)
+    return credits
+  
 def main():
   highScore = 0
   while True:
@@ -121,10 +138,11 @@ def main():
     bg_grounds = []
     bg_grounds.append(gameGround(ground_img,bg_gameZone.left))
     bg_grounds.append(gameGround(ground_img,bg_gameZone.right))
+    credits = prepareCredits(bg_gameZone)
 
     # Hover Title Screen
     while TitleScreen == True:
-      drawAssets(bg_gameZone, bg_titleScreen, bg_img, bg_grounds, bg_gamePipes, flappyBird, gamePoints, finalScore)
+      drawAssets(bg_gameZone, bg_titleScreen, bg_img, bg_grounds, bg_gamePipes, flappyBird, gamePoints, finalScore, credits)
       flappyBird.hover()
       for ground in bg_grounds: ground.next(bg_gameZone)
       for event in pygame.event.get():
@@ -141,7 +159,9 @@ def main():
     # Title Screen Wipe Animation
     sounds.channel3.play(sounds.sound_swoosh)
     while bg_titleScreen.rect.right > bg_gameZone.left:
-      drawAssets(bg_gameZone, bg_titleScreen, bg_img, bg_grounds, bg_gamePipes, flappyBird, gamePoints, finalScore)
+      drawAssets(bg_gameZone, bg_titleScreen, bg_img, bg_grounds, bg_gamePipes, flappyBird, gamePoints, finalScore, credits)
+      for credit in credits:
+        if credit[1].right > bg_gameZone.left: credit[1].left -= PIPESPEED*20
       bg_titleScreen.next(bg_gameZone)
       for ground in bg_grounds: ground.next(bg_gameZone)
       flappyBird.next()
@@ -151,7 +171,7 @@ def main():
     # Actual Game
     elapsed_time = 0
     while GameOver == False:
-      drawAssets(bg_gameZone, bg_titleScreen, bg_img, bg_grounds, bg_gamePipes, flappyBird, gamePoints, finalScore)
+      drawAssets(bg_gameZone, bg_titleScreen, bg_img, bg_grounds, bg_gamePipes, flappyBird, gamePoints, finalScore, credits)
 
       for event in pygame.event.get():
         if (event.type == pygame.MOUSEBUTTONDOWN and event.button == 1) or (event.type == pygame.KEYDOWN and event.key == K_SPACE):
@@ -193,7 +213,7 @@ def main():
     else: finalScore.update(gamePoints, highScore, newScore=False)
     sounds.channel3.play(sounds.sound_swoosh)
     while ResetGame == False:
-      drawAssets(bg_gameZone, bg_titleScreen, bg_img, bg_grounds, bg_gamePipes, flappyBird, gamePoints, finalScore, suppressScore=True)
+      drawAssets(bg_gameZone, bg_titleScreen, bg_img, bg_grounds, bg_gamePipes, flappyBird, gamePoints, finalScore, credits, suppressScore=True)
       finalScore.next(bg_gameZone)
       flappyBird.next()
       # check for bottom collision
