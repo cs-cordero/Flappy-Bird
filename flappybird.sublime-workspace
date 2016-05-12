@@ -4,12 +4,92 @@
 		"selected_items":
 		[
 			[
+				"credits",
+				"creditsWhite1"
+			],
+			[
+				"newsc",
+				"newscoreimg"
+			],
+			[
+				"scale",
+				"scaletowidth"
+			],
+			[
+				"bg",
+				"bg_gameZone"
+			],
+			[
 				"game",
-				"gamePipe"
+				"gamePoints"
+			],
+			[
+				"scal",
+				"scaletowidth"
 			],
 			[
 				"WINDOW",
-				"WINDOWHEIGHT"
+				"WINDOWWIDTH"
+			],
+			[
+				"scoreBo",
+				"scoreBoardTemp"
+			],
+			[
+				"score",
+				"scoreBoard"
+			],
+			[
+				"scor",
+				"scoreBoard"
+			],
+			[
+				"sc",
+				"scoreBoardShadow"
+			],
+			[
+				"boun",
+				"boundary_upper"
+			],
+			[
+				"hover",
+				"hover_dy"
+			],
+			[
+				"hover_",
+				"hover_dy2"
+			],
+			[
+				"bg_ti",
+				"bg_titleScreen"
+			],
+			[
+				"bg_ga",
+				"bg_gameZone"
+			],
+			[
+				"title",
+				"title_img_alpha"
+			],
+			[
+				"conver",
+				"convert_alpha"
+			],
+			[
+				"bg_",
+				"bg_title_alpha"
+			],
+			[
+				"bg_g",
+				"bg_gameZone"
+			],
+			[
+				"groun",
+				"ground_img"
+			],
+			[
+				"background",
+				"background_img"
 			],
 			[
 				"WIND",
@@ -22,10 +102,6 @@
 			[
 				"WID",
 				"WINDOWHEIGHT"
-			],
-			[
-				"background",
-				"background_size"
 			],
 			[
 				"WIN",
@@ -204,34 +280,18 @@
 	"buffers":
 	[
 		{
-			"file": "flappybird.py",
+			"file": "pygame2exe.py",
 			"settings":
 			{
-				"buffer_size": 5582,
+				"buffer_size": 6604,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "scripts/classes.py",
+			"file": "README.md",
 			"settings":
 			{
-				"buffer_size": 2790,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "scripts/sounds.py",
-			"settings":
-			{
-				"buffer_size": 475,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "scripts/constants.py",
-			"settings":
-			{
-				"buffer_size": 840,
+				"buffer_size": 539,
 				"line_ending": "Windows"
 			}
 		}
@@ -298,12 +358,18 @@
 	"expanded_folders":
 	[
 		"/U/Projects/Flappy Bird",
-		"/U/Projects/Flappy Bird/fonts",
 		"/U/Projects/Flappy Bird/scripts"
 	],
 	"file_history":
 	[
+		"/U/Projects/Flappy Bird/scripts/classes.py",
+		"/U/Projects/Flappy Bird/README.md",
+		"/U/Projects/Flappy Bird/flappybird.py",
+		"/U/Projects/Flappy Bird/pygame2exe.py",
 		"/U/Projects/Pong/data/main.py",
+		"/U/Projects/Flappy Bird/scripts/sounds.py",
+		"/U/Projects/Flappy Bird/scripts/constants.py",
+		"/U/Projects/Flappy Bird/images/titlescreen.png",
 		"/U/Projects/Flappy Bird/test.py",
 		"/U/Projects/Pong/pong.py",
 		"/U/test.py",
@@ -345,6 +411,70 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".dll",
+			"modules",
+			"drawAssets(bg_gameZone, bg_titleScreen, bg_img, bg_grounds, bg_gamePipes, flappyBird, gamePoints, finalScore)",
+			"bg_gameZone",
+			"creditsBlack1",
+			"size=",
+			"400",
+			"(3)",
+			"Generate",
+			"scoreBoard",
+			"dist_dir",
+			"join",
+			".join",
+			"sounds.channel1.play(sounds.sound_swoosh)",
+			"grounds",
+			"ground",
+			"scorebox",
+			"gamePoints",
+			"gameScore",
+			"scoreBoard",
+			"White",
+			"ResetGame",
+			"drawAssets(bg_gameZone, bg_titleScreen, bg_img, bg_grounds, bg_gamePipes, flappyBird",
+			"drawAssets(bg_gameZone, bg_titleScreen, bg_img, bg_grounds, bg_gamePipes, flappyBird, gamePoints",
+			"scoreBoxImg",
+			"*WINDOW",
+			"((100.0/720.0)*WINDOWHEIGHT)",
+			"Black",
+			"get_size",
+			"+ 10",
+			"bg_titleScreen",
+			"groundImg",
+			"bg_title",
+			"test_t",
+			"test_tit",
+			"alpha",
+			"title_img",
+			"ground_size",
+			"background_size",
+			"background_img",
+			"grounds",
+			"groundS",
+			"grounds",
+			"groundS",
+			"grounds",
+			"pipes",
+			"PipeS",
+			"pipes",
+			"PipeS",
+			"pipes",
+			"gameZone",
+			"points",
+			"flappybird",
+			"player",
+			"(WINDOWHEIGHT - BIRDSIZE)",
+			"ResetGame",
+			"GenerateText",
+			"generateBackground",
+			"append",
+			"ground_img",
+			"getsize",
+			"background_size",
+			"pipeImgs",
+			"background_",
 			"pg.",
 			"generatetext",
 			"self.",
@@ -408,71 +538,7 @@
 			" ",
 			"old_order_time",
 			"old_order_receipt_time",
-			"= ",
-			"_old",
-			"order_receipt_time_old",
-			"Text_DT",
-			"Text_Dt",
-			"=",
-			" ",
-			"ROW_NUM ACTVY_ID ORD_ID ORDER_RECEIPT_TIME INSTRUCTIONS ORIGL_QTY SYMBOL SCRTY_DESCR ORDER_TYPE TRAILING STOP METHOD TRAIL_STOP_AMT LIMIT_PRICE STP_LIMIT_PRICE ORD_DURATION GOOD_TILL_DT DEST_SYS_CD ACCT_NBR CUST_SHORT_NM CAPACITY AON_FLAG DNR_I_FLAG NOT_HELD_FLAG ACTIVITY_TIME ACTIVITY ACTIVITY_QTY ACTIVITY_PRICE CNCL_QTY REF_ORD_ID ENTERING_DEVICE MARKET_CD ENTERING_BROKER_CD CXL_BY DISCRETIONARY_FLAG ENT_ACCT_ID OLD_ACCT_ID CUST_ID CONFM_1_TXT CONFM_2_TXT TRAILING_STOP CLIENT_DIRECTED CONDITIONAL_ORDER DISPLAY_SIZE RVW_CD TYPE TEXT",
-			"$100.",
-			"data ",
-			"&importdir",
-			"\\\\crdcfs1\\projects88\\SA-Velocity\\Data\\Recd 2016.05.02",
-			" ",
-			"ROW_NUM ACTVY_ID ORD_ID ORDER_RECEIPT_TIME INSTRUCTIONS ORIGL_QTY SYMBOL SCRTY_DESCR ORDER_TYPE TRAILING STOP METHOD TRAIL_STOP_AMT LIMIT_PRICE STP_LIMIT_PRICE ORD_DURATION GOOD_TILL_DT DEST_SYS_CD ACCT_NBR CUST_SHORT_NM CAPACITY AON_FLAG DNR_I_FLAG NOT_HELD_FLAG ACTIVITY_TIME ACTIVITY ACTIVITY_QTY ACTIVITY_PRICE CNCL_QTY REF_ORD_ID ENTERING_DEVICE MARKET_CD ENTERING_BROKER_CD CXL_BY DISCRETIONARY_FLAG ENT_ACCT_ID OLD_ACCT_ID CUST_ID CONFM_1_TXT CONFM_2_TXT TRAILING_STOP CLIENT_DIRECTED CONDITIONAL_ORDER DISPLAY_SIZE RVW_CD TYPE TEXT",
-			" ",
-			"flag_purpose_p",
-			" ",
-			"flag_purpose_p",
-			" ",
-			"logit ",
-			"flag_defective",
-			"201208",
-			"flag_shea",
-			" ",
-			"defect=",
-			"flag_",
-			" ",
-			"i.TrustCode",
-			"tc",
-			" ",
-			"Status avm_ltv_gt_80_alt FICO LTV DTI max_unemp min_hpi Rate Ln_Original_Balance non_owner_occupied full_doc refinance single_family flag_silentsecond",
-			" ",
-			"logit ",
-			"logit",
-			". ",
-			"> ",
-			" ",
-			"default",
-			"B",
-			"b",
-			"B",
-			"b",
-			"hpi",
-			"tape_",
-			"tape_w_history",
-			"unemp",
-			"hpi",
-			"cltv",
-			"ge 2000",
-			"year ge 2000",
-			"forstata_5",
-			"forstata_4",
-			"forstata_3",
-			"forstata_2",
-			"forstata_1",
-			"regdata",
-			"+",
-			"sheet=",
-			"flag_silentsecond",
-			"of",
-			"delta",
-			"alta",
-			"print",
-			"if w >= 2: ",
-			"[v"
+			"= "
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -490,123 +556,65 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "flappybird.py",
+					"file": "pygame2exe.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5582,
+						"buffer_size": 6604,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3680,
-								3680
+								2213,
+								2213
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 2,
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1684.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "scripts/classes.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2790,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1852,
-								1852
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 264.0,
+						"translation.y": 951.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "scripts/sounds.py",
+					"buffer": 1,
+					"file": "README.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 475,
+						"buffer_size": 539,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								334,
-								345
+								328,
+								328
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "scripts/constants.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 840,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								677,
-								677
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
